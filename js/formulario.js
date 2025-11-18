@@ -81,5 +81,5 @@ function calcularResultado() {
     imagen = "./img/perdedor.png";
   }
 
-  resultDiv.innerHTML = `<p>${mensaje}</p><img src="${imagen}" alt="Resultado" style="max-width:300px;">`;
+  resultDiv.innerHTML = `<p>Respuestas correctas: ${total} de 6</p><p>${mensaje}</p><img src="${imagen}" alt="Resultado" style="max-width:300px;">`;
 }
